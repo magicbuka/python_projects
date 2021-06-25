@@ -27,7 +27,7 @@ def BigMinus(s1, s2):
         if num < 0:
             num += 10
             lst1[i - 1] -= 1
-            print(num)
+            
         res_lst[i] = num
 
     if len(res_lst) == 0:
