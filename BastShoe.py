@@ -27,7 +27,7 @@ class Editor:
         if Editor.last_index == 4:
             if not Editor.reset:
                 Editor.reset = True
-                Editor.undo_lst = lst()
+                Editor.undo_lst = list()
                 Editor.undo_lst.append(old_str)
                 Editor.undo_lst.append(Editor.str)
         elif Editor.reset:
