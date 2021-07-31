@@ -1,10 +1,10 @@
 class Editor:
     str = ''
-    history = lst()
+    history = list()
     reset = False
     count = -1
     last_index = 0
-    undo_lst = lst()
+    undo_lst = list()
     redo_unable = False
 
     def __init__(self, command):
