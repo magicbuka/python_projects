@@ -54,7 +54,7 @@ def second_max_num(num_lst, i, max1, max2):
     if num_lst[i] > max1:
         if max2 < max1:
             max2 = max1
-        max1 = numlst[i]
+        max1 = num_lst[i]
     if i + 1 < len(num_lst):
         return second_max_num(num_lst, i+1, max1, max2)
     else:
