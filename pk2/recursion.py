@@ -70,7 +70,6 @@ def start_func(num_lst):
 # 1.3.8. поиск и вывод на печать всех файлов в заданном каталоге, включая файлы, расположенные в подкаталогах произвольной вложенности.
 import os
 
-
 def files_in_dir(path):
     lst = []
     for root, dirs, files in os.walk(path):
