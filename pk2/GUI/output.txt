@@ -1,0 +1,12 @@
+01.12.2021_main_info<sep>['English: 7', '(2 medium, 5 hard)', 'Other activity: 5']
+01.12.2021_tasksum<sep>12
+01.12.2021_comment<sep>['закрыты активные задачи']
+03.12.2021_main_info<sep>['Machine learning: 3']
+03.12.2021_tasksum<sep>3
+03.12.2021_comment<sep>['низкая эффективность']
+05.12.2021_main_info<sep>['Задач типа Python: 10', '(2 простых, 3 средних, 5 сложных)', 'Задач типа Machine learning: 10', 'Задач типа English: 5']
+05.12.2021_tasksum<sep>25
+05.12.2021_comment<sep>['статья про сплайны']
+06.12.2021_main_info<sep>['Python: 10', '(2 easy, 3 medium, 5 hard)', 'Machine learning: 5']
+06.12.2021_tasksum<sep>15
+06.12.2021_comment<sep>['открытые задачи завершены']
