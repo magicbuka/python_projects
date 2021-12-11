@@ -58,6 +58,7 @@ class LinkedList:
             if node.next.value == val:
                 if node.next.next == None:
                     node.next = None
+                    self.tail = node
                     return
                 node.next = node.next.next
                 if not all:
