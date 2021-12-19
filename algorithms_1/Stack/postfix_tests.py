@@ -15,9 +15,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual( data, res)
 
     def test_postfix_3(self):
-        sourse_string = '85+5*9+='
+        sourse_string = '82+5*9+='
         data = Postfix.postfix(sourse_string)
-        res = 74
+        res = 59
         self.assertEqual( data, res)
 
     def test_postfix_4(self):
