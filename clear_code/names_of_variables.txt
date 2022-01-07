@@ -1,0 +1,12 @@
+num - input_number // введенное числовое значение
+pi - pi_number // число Пи
+ru_total - russian_score_total // итоговый счет российской команды
+ru_1 - russian_score_first_half // счет российской команды в первом тайме
+year - year_of_birth // год рождения
+month - month_number // номер месяца
+W - wall_width // ширина стены
+v_n - router_number // переменная для хранения номера роутера
+sl - list_from_input_string // строка преобразованная в список
+position - start_position // стартовая позиция для формирования подстроки
+list_substring - list_substring_elements // список для хранения элементов подстроки
+result - square_of_number // переменная для хранения квадрата числа
