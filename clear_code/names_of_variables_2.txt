@@ -1,0 +1,28 @@
+6.1 пять примеров, где в именах переменных более наглядно учтены уровни абстракции
+
+1. a -> geranium
+2. b -> violets
+3. c -> cactus
+4. a+b+c -> result_pots_position
+5. num_list -> list_hundred_random_numbers
+
+6.2 четыре примера с использованием технических терминов из информатики
+
+1. root
+2. nodes 
+3. xml
+4. client
+
+6.3. три примера, когда имена переменных даны с учётом контекста (функции, метода, класса).
+
+1. votes_sum_lst
+2. union_result_set
+3. seek_slot
+
+6.4. корректировка пяти имён переменных (чтобы укладывались в диапазон 8-20 символов)
+
+1. list_hundred_random_numbers (27) -> list_100_rand_num (17)
+2. code (4) -> vulnerability_code (18)
+3. v_n (3) -> router_number (13)
+4. sum_1 (5) -> sum_first_three_num (18)
+5. S (1) -> input_string (12)
