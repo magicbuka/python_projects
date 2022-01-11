@@ -1,0 +1,34 @@
+7.1. 
+1. flag -> found 
+2. control -> is_valid 
+3. reset -> reset
+4. work -> work
+5. res -> include
+
+7.2. 
+1. found   //найдена искомая комбинация
+2. done    //работа сервера завершена
+3. success //произведена очистка формы
+
+7.3. 
+1. # внешний цикл обходит первый массив, вложенный - второй
+	for index_1 in range(list_len):
+    		for index_2 in range(list_len):
+
+2. #внешний цикл отвечает за количество строк
+       for string in range(1, 8):
+           #внутренний цикл отвечает за количество символов в строке
+           for symbol in range(string_len):
+
+7.4. 
+1. max_price - min_price 
+2. self.head - self.tail
+3. node.next - node.prev
+
+7.5. 
+1. tmp -> position
+2. data2 -> array_copy
+
+tmp = r_1
+r_1 = r_2
+r_2 = tmp  -> r_1, r_2 = r_2, r_1
