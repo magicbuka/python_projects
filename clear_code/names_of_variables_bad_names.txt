@@ -1,0 +1,12 @@
+1. ids -> employes_num_list  //SynchronizingTables, массив, содержащий номера сотрудников
+2. salary -> salary_list //SynchronizingTables, массив, содержащий зарплаты
+3. count_ww -> count_whitewalkers // white_walkers, количество белых ходоков
+4. discount -> discount_max //MaximumDiscount, максимально возможную величину скидки
+5. price_1 -> three_price_list //MaximumDiscount, массив массив цен для трех товаров 
+6. lst_line -> main_symbols_list //LineAnalysis, список основных символов 
+7. A -> input_array // Transform, входной массив 
+8. B -> transform_input_array // Transform, трансформированный массив 
+9. easy -> easy_level_task //task_dairy, задача простого уровеня сложности
+10. new_capacity -> updated_capacity -- текущая ёмкость буфера   обновленная емкость
+11. num_list -> random_numbers_list //список случайны чисел из заданного диапазона
+12. mean_value -> mean_rand_num_lst//среднее значения для списка случайных чисел
