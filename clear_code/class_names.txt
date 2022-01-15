@@ -1,0 +1,16 @@
+3.1 
+1. LinkedList2 -> DoubleLinkedList
+2. MyTestCase -> RandomStringTest
+3. LinkedList -> SimpleLinkedList
+4. Deque -> DoubleQueue
+5. List2 -> IteratorNumbers
+
+3.2
+1. addFront() -> add_in_front()
+2. addTail() -> add_in_tail()
+3. size() -> len()
+4. removeFront() -> delete_from_front() 
+5. removeTail() -> delete_from_tail() / pop()
+6. push() -> append()
+7. enqueue() -> append()
+
