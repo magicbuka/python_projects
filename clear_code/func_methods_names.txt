@@ -1,0 +1,12 @@
+1. about -> get_info_about_programm // вывод информации о программе
+2. close -> exit_from_programm // процедура выхода из программы
+3. cliker -> change_radiobutton_visible // обработка действий нажатия радиокнопок
+4. show_comment -> show_scrollbox_for_comment // вывод окна для ввода комментария
+5. read_info -> check_and_save_info // проверить ввод и сохранить информацию
+6. clear -> clear_form // очистить форму
+7. save -> save_info_to_file // сохранение данных в файл
+8. actual_info -> get_tasks_on_date // получить задачи на дату
+9. make_calendar -> make_calendar_grid // cоставить сетку календаря
+10. palindrome -> check_string_on_palindrome // проверка строки на палиндром
+11. braces -> check_braces_balance // проверка баланса открывающих/закрывающих скобок 
+12. summ -> culc_sum_digits_of_number // вычисление суммы цифр числа
