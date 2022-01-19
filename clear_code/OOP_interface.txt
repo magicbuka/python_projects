@@ -1,0 +1,40 @@
+class Book:
+    def __init__(self, book_id, title, author):
+        self.book_id = book_id
+        self.title = title
+        self.author = author
+        
+class BookSerializer:
+    def serialize_to_JSON(self, book, format):
+        serializer = self._get_serializer(format)
+        return serializer(book)
+    
+    def _get_serializer(self, format):
+        if format == 'JSON':
+            return self._serialize_to_json
+        else:
+            raise ValueError(format)
+    
+    def _serialize_to_json(self, book):
+        payload = {'id': book.book_id,
+                   'title': book.title,
+                   'artist': book.artist}
+        return json.dumps(payload)
+    
+book = Book('1', 'War and piece', 'Lev Tolstoy')
+serializer = BookSerializer()
+serializer.serialize_to_json(book, 'JSON')
+
+#---
+
+class Animal 
+class Cat(Animal) 
+class Dog(Animal) 
+
+class Animal_Factory
+class Cat_Factory(Animal_Factory) 
+class Dog_Factory(Animal_Factory) 
+
+#---
+
+Convert rub_to_usd = new Convert(56) -> Convert rub_to_usd = Convert.FromRublesToUSD(56)
