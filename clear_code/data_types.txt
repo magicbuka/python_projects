@@ -1,0 +1,59 @@
+1. 
+#Задача MassVote.py
+#код, предупреждающий появление ошибки деления на 0
+    
+    sum_lst = sum(Votes)
+        
+    if sum_lst == 0:
+        return 'no winner'
+    
+    perc = round((max_lst / sum_lst) * 100, 3)
+
+2. 
+#Задача Keymaker.py
+#Использование констант вместо строк, магических символов
+OPEN_STATUS = '1'
+
+3. 
+#Задача BigMinus.py
+#Использование переменной для повышения читаемости
+
+num = lst1[i] - lst2[i]
+if num < 0:
+
+4. 
+#Задача ConquestCampaign.py
+#Использование переменной для повышения читаемости
+
+min_rangeN = min(rangeN)
+min_rangeM = min(rangeM)
+
+if i > min_rangeN and i < max_rangeN and j > min_rangeM and j < max_rangeM:
+
+5.
+#Задача MisterRobot.py 
+#Использование логической переменной для повышения читаемости
+for i in range(N-1):
+    is_condition_true = data[i] > data[i+1]
+    if is_condition_true:
+
+6. 7. 8. 9. 10. 
+#Задача BastShoe.py
+#Использование констант вместо строк, магических символов
+ADD_TO_END = '1' 
+DEL_SYMBOLS = '2' 
+GET_SYNBOL = '3' 
+UNDO = '4' 
+REDO = '5'
+
+11. 
+#Задача braces.py 
+#Использование констант вместо строк, магических символов
+OPEN_BRACE = "("
+if brace == OPEN_BRACE:
+
+12.
+#Задача LineAnalysis.py
+#Использование констант вместо строк, магических символов
+SYMBOL = '*'
+lst_line = line.split(SYMBOL)
