@@ -1,0 +1,79 @@
+1. 2. 3. 4. 5. 6. 7. 8.
+#Задача ConquestCampaign.py
+#Добавлено завершение работы с переменными
+#Проверка на допустимость значений 
+
+def ConquestCampaign(N, M, L, battalion):
+    
+    if not isinstance(N, int) or N < 1:
+        raise TypeError(f'Значение N не является числом или менее 1:{N}')
+    elif not isinstance(M, int) or M < 1:
+        raise TypeError(f'Значение M не является числом или менее 1:{M}')
+    elif not isinstance(L, int) or L < 1:
+        raise TypeError(f'Значение L не является числом или менее 1:{L}')
+    elif not isinstance(battalion, list):
+        raise TypeError(f'В battalion передан не массив:{battalion}')
+    
+    ... # много кода 
+    A1 = [[1 for j in range(M)] for i in range(N)]
+    A = [[1 for j in range(M)] for i in range(N)]
+    
+    ... # много кода
+    
+    while sum([sum(A1[i]) for i in range(N)])>0:
+        
+        rangeN = [*range(0, N)]
+        rangeM = [*range(0, M)]
+        
+        ... # много кода
+        
+             
+    A1 = .clear()
+    A = A.clear()
+    rangeN = rangeN.clear()
+    rangeM = rangeM.clear()
+    
+    return days
+
+9. 10. 11. 12. 13. 14. 
+#Задача BigMinus.py
+#Добавлено завершение работы с переменными
+#Проверка на допустимость значений 
+
+def BigMinus(s1, s2):
+    
+    if not isinstance(s1, str):
+        raise TypeError(f'Значение s1 не является строковым типом:{s1}')
+    elif not isinstance(s2, str):
+        raise TypeError(f'Значение s2 не является строковым типом:{s2}')
+    
+    l_1 = len(s1)
+    l_2 = len(s2)
+
+    if l_1 > l_2:
+        ... # много кода 
+        lst1 = [int(i) for i in s1]
+        lst2 = [int(i) for i in s2.rjust(len(s1), '0')]
+        ... # много кода 
+    
+    ... # много кода 
+    
+    l_1 = -1
+    l_2 = -1
+    lst1 = lst1.clear()
+    lst2 = lst2.clear()
+
+15.
+#Задача SynchronizingTables.py
+#Переменная инициализирована ближе к месту ее использования
+#Было
+ids_copy = ids.copy()
+... # много кода 
+for i, num in enumerate(ids_copy):
+    lst.append([d[num], salary[i]])
+
+#Стало    
+... # много кода 
+ids_copy = ids.copy()
+for i, num in enumerate(ids_copy):
+    lst.append([d[num], salary[i]])    
