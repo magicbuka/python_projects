@@ -61,6 +61,7 @@ class PowerSet:
             if set2.get(i) is False:
                 result_set.put(i)
         return result_set
+    #...code  
 
     
 # 3.2
