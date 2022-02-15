@@ -1,0 +1,16 @@
+Взаимосвязи между таблицами northwind 
+
+Categories - Products (один-ко-многим)
+Contacts (нет связей)
+CustomerDemographics - CustomerCustomerDemo (многие-ко-многим)
+Customers - CustomerCustomerDemo (многие-ко-многим)
+Customers - Orders (один-ко-многим)
+Employees - Orders (один-ко-многим)
+Employees - Employees (один-ко-многим)
+Employees - EmployeeTerritories (многие-ко-многим)
+Orders - Order Details (многие-ко-многим)
+Products - Order Details (многие-ко-многим)
+Region - Territories (многие-ко-многим)
+Shippers - Orders (один-ко-многим)
+Suppliers - Products (один-ко-многим)
+Territories - EmployeeTerritories (многие-ко-многим)
