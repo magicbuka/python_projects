@@ -78,7 +78,7 @@ class BST:
             return False
 
     def FinMinMax(self, FromNode, FindMax):
-        if self.Root is not None:
+        if not isinstance(self.Root, type(None)):
             if FindMax:
                 while not isinstance(FromNode.RightChild, type(None)):
                     FromNode = FromNode.RightChild
