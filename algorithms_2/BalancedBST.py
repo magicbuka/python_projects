@@ -13,7 +13,7 @@ class BalancedBST:
     def __init__(self):
         self.Root = None  # корень дерева
 
-    def __AddNode(self, parent, a, level):
+    def __AddNode(self, parent, a, level=0):
         if a == []:
             return
         array_length = len(a)
@@ -21,8 +21,9 @@ class BalancedBST:
         node = BSTNode(a[center_index], parent)
         node.Parent = parent
         node.Level = level
-        node.LeftChild = self.__AddNode(node, a[:center_index], level + 1)
-        node.RightChild = self.__AddNode(node, a[center_index + 1:], level + 1)
+        level += 1
+        node.LeftChild = self.__AddNode(node, a[:center_index], level)
+        node.RightChild = self.__AddNode(node, a[center_index + 1:], level)
         return node
 
     def __DepthSubTree(self, node):
@@ -41,12 +42,11 @@ class BalancedBST:
             return None
         elif array_length > 1:
             a.sort()
-            self.Root = self.__AddNode(None, a, 1)
+            self.Root = self.__AddNode(None, a)
             return self.Root
 
     def IsBalanced(self, root_node):
         left = self.__DepthSubTree(root_node.LeftChild)
         right = self.__DepthSubTree(root_node.RightChild)
         return 0 <= abs(left - right) <= 1
-
 
