@@ -77,12 +77,12 @@ class SimpleGraph:
                 if self.IsEdge(current_vertex, v) and not self.vertex[v].Hit:
                     current_vertex = v
                     break
+            else:
+                stack.pop()
+                if len(stack) == 0:
+                    return []
                 else:
-                    stack.pop()
-                    if len(stack) == 0:
-                        return []
-                    else:
-                        current_vertex = self.vertex.index(stack.pop())
+                    current_vertex = self.vertex.index(stack.pop())
 
 
 
